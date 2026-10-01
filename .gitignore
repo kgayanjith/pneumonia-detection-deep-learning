@@ -1,0 +1,8 @@
+data/
+
+venv/
+node_modules/
+pneumonia-frontend/node_modules/
+*.keras
+__pycache__/
+.DS_Store
