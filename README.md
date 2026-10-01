@@ -93,21 +93,7 @@ uvicorn api:app --reload
 
 This will start the server at http://127.0.0.1:8000. Keep this running while you use the frontend.
 
-## Running the Frontend
 
-Open a new terminal window, move into the frontend folder, install its dependencies, and start the development server.
-
-```
-cd pneumonia-frontend
-npm install
-npm run dev
-```
-
-Once it is running, open your browser and go to http://localhost:5173. From there you can upload a chest X ray and see whether the model predicts normal or pneumonia, along with a confidence score.
-
-## A Quick Note Before You Start
-
-Make sure the backend server from the previous step is still running while you use the frontend, since the website sends the uploaded image to that server to get a prediction back.
 
 ## Disclaimer
 
